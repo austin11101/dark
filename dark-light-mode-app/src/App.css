@@ -1,0 +1,43 @@
+/* Light Mode */
+.light-mode {
+  background-color: white;
+  color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Make the container a reference for absolute positioning */
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Same as for light mode */
+}
+
+/* Container for the buttons */
+.button-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Button Styling */
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
